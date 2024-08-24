@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#3498db ;
+}
+
+.main{
+    height:100vh;
+    width: 100%;
+    display : flex;
+    justify-content : center;
+    align-items :center;
+    flex-direction : column;
+}
+
+#box{
+    width: 40%;;
+    padding:15px;
+    box-shadow: 0px 0px 5px gray;
+    background-color: white; /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color]; */
+    border-radius: 5px;
+}
+
+.row{
+    width:100%;
+    margin : 2rem; /* rem stand for "root em" ,1 rem = "16 px" */
+    margin-left : 0;
+}
+.btn{
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius:5px;
+    background-color:  #3498db ;
+}
